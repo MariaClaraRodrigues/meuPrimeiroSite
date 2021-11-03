@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #BBD2FD;
+    --cor02: #6FA1FC;
+    --cor03: #5981CC;
+    --cor04: #374F7D;
+    --cor05: #5C687D;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor05);
+    font-size: 1em;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor05));
+    min-height: 100px;
+    text-align: center;
+    padding-top: 35px;
+}
+header > h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.3em;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px var(--cor05);
+    color: var(--cor01);
+}
+header > p {
+    max-width: 780px;
+    padding: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 1em;
+    text-align: justify;
+    text-align: center;
+    color: var(--cor02);
+}
+nav {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+nav > a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    color: var(--cor01);
+}
+a:hover {
+    font-family: fantasy;
+    text-decoration: underline;
+    border-radius: 5px;
+    background-color: var(--cor04);
+    color: var(--cor05);
+}
+fieldset {
+    border: 0;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: var(--cor04);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.048);
+    border-radius: 10px;
+}
+.informacoespessoais {
+    text-indent: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+.nome, .email {
+    font-size: 20px;
+    padding: 10px;
+    margin: 3px;
+    margin-left: 100px; 
+    margin-bottom: 0.2em;
+    float: left;
+    border: 1px solid var(--cor03);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+    color: rgb(214, 206, 206);
+}
+main p {
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+    font-size: 18px;
+    color: var(--cor01);
+} 
+.paragrafo {
+    padding-bottom: 10px;
+}
+fieldset label {
+    padding: 10px;
+    margin: 5px;
+    text-indent: 5px;
+}
+.area, .estado, .senioridade, .tecnologias, .campo {
+    padding: 5px;
+    margin: 3px;
+    text-indent: 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+.senioridade {
+    margin-bottom: 20px;
+}
+input, select, textarea, button {
+    border-radius: 5px;
+    text-align: center;
+}
+input {
+    background-color: var(--cor01);
+}
+#experiencia {
+    margin: auto;
+    padding: 0.2em;
+    display: block;
+}
+.botao {
+    font-size: 1.2em;
+    border: 0px;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
+    transform: translate(50%, 50%);
+    background-color: var(--cor02);
+    color: white;
+}
+.botao:hover {
+    background-color: var(--cor03);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.582);
+    text-shadow: none;
+}
+.botao, select {
+    cursor: pointer;
+}
+footer {
+    background-color: var(--cor03);
+    text-align: center;
+    font-size: 17px;
+    padding: 3px 1px;
+}
+footer strong {
+    color: rgba(14, 14, 177, 0.808);
+    text-decoration: underline;
+}

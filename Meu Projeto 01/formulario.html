@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="faleComigo.html">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-Vindo Ao Formulário Do Dev</h1>
+        <p>Olá Dev, seja bem-vindo ao meu primeiro formulário em HTML & CSS! Espero que você goste!</p>
+    </header>
+
+    <nav>
+        <a href="index.html"> Home </a> |
+        <a href="formulario.html"> Formulário do Dev </a> |
+        <a href="faleComigo.html"> Fale Conosco </a> 
+    </nav>
+    <main>
+        <fieldset class="grupo">
+            <form class="informacoespessoais">
+                <div class="nome">
+                    <label for="nome">Nome do Dev:</label>
+                    <input type="text" name="nome" required>
+                </div>
+                <div class="email">
+                    <label for="email">Email do Dev:</label>
+                    <input type="email" name="email" required>
+                </div>
+        </fieldset>        
+
+        <p>
+            Agora vou fazer as perguntas sobre o que você estuda (as linguagens, entre outras coisas!).
+        </p>
+
+    
+        
+        <div class="area">
+            <label>Qual área da programação você está trabalhando/estudando?</label>
+            <label><input type="radio" name="devweb" value="frontend" checked> Front-End </label>
+            <label><input type="radio" name="devweb" value="backend"> Back-End </label>
+            <label><input type="radio" name="devweb" value="fullstack"> Fullstack </label>
+        </div>
+        <div>
+            <br>
+            <label class="estado">Qual é seu estado atual na programação?</label>
+            <label>
+                <select>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Estudante apenas</option>
+                    <option>Estagiário</option>
+                    <option>Trabalho por conta própria</option>
+                    <option>Já trabalho em uma empresa</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <br>
+            <label class="senioridade">Qual sua senioridade?</label>
+            <label>
+                <select>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Junior</option>
+                    <option>Pleno</option>
+                    <option>Senior</option>
+                    <option>Ainda não tenho uma</option>
+                </select>
+            </label>
+            <br>
+        </div>
+            <fieldset>
+                    <label class="tecnologias">Quais tecnologias você utiliza?</label>
+                <div class="campo">    
+                    <input type="checkbox" name="tecnologia" value="HTML">
+                    <label for="tecnologia">HTML</label>
+                    <input type="checkbox" name="tecnologia" value="CSS">
+                    <label for="tecnologia">CSS</label>
+                    <input type="checkbox" name="tecnologia" value="JavaScript">
+                    <label for="tecnologia">JavaScript</label>
+                    <input type="checkbox" name="tecnologia" value="Java">
+                    <label for="tecnologia">Java</label>
+                    <input type="checkbox" name="tecnologia" value="C">
+                    <label for="tecnologia">C</label>
+                    <input type="checkbox" name="tecnologia" value="C++">
+                    <label for="tecnologia">C++</label>
+                    <input type="checkbox" name="tecnologia" value="C#">
+                    <label for="tecnologia">C#</label>
+                    <input type="checkbox" name="tecnologia" value="PHP">
+                    <label for="tecnologia">PHP</label>
+                    <input type="checkbox" name="tecnologia" value="Python">
+                    <label for="tecnologia">Python</label>
+                </div>
+            </fieldset>
+            <div>
+                <br>
+                <label><p class="paragrafo">Conte um pouco sobre suas vivências e experiência:</p></label>
+                <textarea name="experiencia" id="experiencia" cols="30" rows="10" style="width: 26em;" required></textarea>
+            </div>
+            <button type="submit" value="enviar" class="botao">Enviar</button>
+        </form>
+        
+    </main>
+    <footer>Site teste feito por <strong>Maria Clara</strong></footer>
+</body>
+</html>

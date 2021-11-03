@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor0: #F2D98D;
+    --cor1: #F2CF63;
+    --cor2: #D9AA52;
+    --cor3: #A66F2D;
+    --cor4: #D9D3D2;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor3);
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    min-height: 100px;
+    text-align: center;
+    padding-top: 35px;
+}
+header > h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.3em;
+    padding: 5px;
+    color: var(--cor0);
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px var(--cor4);
+}
+header > p {
+    line-height: 1.5em;
+    padding: 20px;
+    max-width: 780px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    text-align: justify;
+    text-align: center;
+    color: var(--cor1);
+}
+nav {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+nav > a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: var(--cor0);
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+nav > a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+    border-radius: 5px;
+    background-color: var(--cor4);
+    font-family: fantasy;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: var(--cor2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.048);
+    border-radius: 10px;
+}
+main h1 {
+    font-size: 2.3em;
+    text-indent: 30px;
+    color: var(--cor3);
+    padding-bottom: 5px;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 15px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    line-height: 27px;
+}
+main a {
+    text-decoration: none;
+    color: var(--cor3);
+}
+footer {
+    background-color: var(--cor2);
+    text-align: center;
+    font-size: 17px;
+    padding: 8px;
+}
+footer strong {
+    color: rgba(14, 14, 177, 0.808);
+}

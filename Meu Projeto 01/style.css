@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #EDC79F;
+    --cor2: #E0BD96;
+    --cor3: #C7A785;
+    --cor4: #A1876C;
+    --cor5: #615141;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor5);
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+    min-height: 100px;
+    text-align: center;
+    padding-top: 35px;
+}
+header > h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.3em;
+    padding: 5px;
+    color: var(--cor1);
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px var(--cor5);
+}
+header > p {
+    line-height: 1.5em;
+    padding: 20px;
+    max-width: 780px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    text-align: justify;
+    text-align: center;
+    color: var(--cor2);
+}
+nav {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+nav > a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+nav > a:hover {
+    text-decoration: underline;
+    color: var(--cor5);
+    border-radius: 5px;
+    background-color: var(--cor3);
+    font-family: fantasy;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: var(--cor4);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.048);
+    border-radius: 10px;
+}
+main h1 {
+    font-size: 2.3em;
+    text-indent: 30px;
+    color: var(--cor1);
+    padding-bottom: 5px;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 15px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    line-height: 27px;
+}
+main a {
+    color: black;
+}
+main h2 {
+    font-size: 2.1em;
+    text-indent: 30px;
+    color: var(--cor2);
+    padding-bottom: 5px;
+}
+aside {
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.192);
+}
+aside > h3 {
+    background-color: var(--cor5);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+footer {
+    background-color: var(--cor3);
+    text-align: center;
+    font-size: 17px;
+    padding: 3px 1px;
+}
+footer strong {
+    color: rgba(14, 14, 177, 0.808);
+    text-decoration: underline;
+}
